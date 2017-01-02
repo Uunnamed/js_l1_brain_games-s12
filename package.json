@@ -1,11 +1,13 @@
 {
   "name": "brain_games_uunnamed",
-  "version": "1.0.3",
+  "version": "1.1.2",
   "description": "It's my first project on hexlet.io",
   "main": "brain-even.js",
-  "bin" : { "brain-even" : "./bin/brain-even.js" },
+  "bin": {
+    "brain-even": "./bin/brain-even.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "babel-node": "babel-node"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/Uunnamed/js_l1_brain_games-s12/issues"
   },
-  "homepage": "https://github.com/Uunnamed/js_l1_brain_games-s12#readme"
+  "homepage": "https://github.com/Uunnamed/js_l1_brain_games-s12#readme",
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-core": "*",
+    "babel-preset-env": "*",
+    "babel-preset-stage-0": "*"
+  }
 }
