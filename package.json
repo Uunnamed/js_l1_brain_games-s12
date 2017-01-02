@@ -1,0 +1,20 @@
+{
+  "name": "brain_games_uunnamed",
+  "version": "1.0.3",
+  "description": "It's my first project on hexlet.io",
+  "main": "brain-even.js",
+  "bin" : { "brain-even" : "./bin/brain-even.js" },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Uunnamed/js_l1_brain_games-s12.git"
+  },
+  "author": "Uunnamed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Uunnamed/js_l1_brain_games-s12/issues"
+  },
+  "homepage": "https://github.com/Uunnamed/js_l1_brain_games-s12#readme"
+}
