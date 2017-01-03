@@ -9,7 +9,8 @@
   "scripts": {
     "babel-node": "babel-node",
     "flow": "flow",
-    "flow-typed": "flow-typed"
+    "flow-typed": "flow-typed",
+    "eslint": "eslint bin/brain-even.js"
   },
   "repository": {
     "type": "git",
@@ -24,10 +25,15 @@
   "devDependencies": {
     "babel-cli": "*",
     "babel-core": "*",
+    "babel-eslint": "*",
     "babel-plugin-syntax-flow": "*",
     "babel-plugin-transform-flow-strip-types": "*",
     "babel-preset-env": "*",
     "babel-preset-stage-0": "*",
+    "eslint": "*",
+    "eslint-config-airbnb": "*",
+    "eslint-plugin-flowtype": "*",
+    "eslint-plugin-import": "*",
     "flow-bin": "*",
     "flow-typed": "*"
   }
