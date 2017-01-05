@@ -1,10 +1,11 @@
 {
   "name": "brain_games_uunnamed",
-  "version": "1.3.4",
+  "version": "2.0.10",
   "description": "It's my first project on hexlet.io",
-  "main": "dist/bin/brain-even.js",
+  "main": "dist/index.js",
   "bin": {
-    "brain-even": "dist/bin/brain-even.js"
+    "brain-even": "dist/bin/brain-even.js",
+    "brain-calc": "dist/bin/brain-calc.js"
   },
   "scripts": {
     "babel-node": "babel-node",
