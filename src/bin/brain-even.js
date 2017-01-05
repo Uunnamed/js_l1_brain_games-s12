@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 // @flow
-import gameOne from '../brain_game_one';
+import gameEven from '../brain_game_even';
 
-gameOne();
+gameEven();
