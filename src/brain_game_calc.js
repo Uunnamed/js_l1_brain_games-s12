@@ -32,7 +32,10 @@ const fnGame = () => {
   return [question, trueAnswer];
 };
 
-const funcValidate = answer => (!isNaN(parseInt(answer, 10)) ? parseInt(answer, 10) : false);
+const funcValidate = (answer) => {
+  const result = parseInt(answer, 10);
+  return (!isNaN(result) ? result : false);
+};
 
 const messageIncorAnswer = "Incorrect answer, use only 'numbers'";
 
